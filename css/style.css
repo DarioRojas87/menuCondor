@@ -7,6 +7,10 @@
  body {
    overflow: visible !important;
  }
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+      touch-action: auto;
+  }
  @media screen and (max-width: 600px) {
   #happyHour {
     background-image: url(../images/carouselHappy1.jpg) !important;
