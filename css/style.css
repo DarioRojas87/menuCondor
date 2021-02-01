@@ -4,7 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+ body {
+   overflow: visible !important;
+ }
  @media screen and (max-width: 600px) {
   #happyHour {
     background-image: url(../images/carouselHappy1.jpg) !important;
